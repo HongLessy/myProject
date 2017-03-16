@@ -25,6 +25,7 @@ cc.Class({
     start: function() {
         this._set_tree_skin();    
     },
+    //更换树的皮肤
     _set_tree_skin: function() {
         var skin_type = Math.random() * 4 + 1;
         skin_type = Math.floor(skin_type);
